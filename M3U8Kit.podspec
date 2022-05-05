@@ -20,10 +20,10 @@ Pod::Spec.new do |spec|
   # spec.description      = <<-DESC
   #                      DESC
 
-  spec.homepage = "https://github.com/M3U8Kit/M3U8Parser.git"
+  spec.homepage = "https://github.com/TT-usr/M3U8Parser.git"
   spec.license = 'MIT'
   spec.author = "M3U8Kit"
-  spec.source = { :git => "https://github.com/M3U8Kit/M3U8Parser.git", :tag => spec.version }
+  spec.source = { :git => "https://github.com/TT-usr/M3U8Parser.git", :tag => spec.version }
 
   spec.ios.deployment_target = '9.0'
   spec.osx.deployment_target = '10.10'
