@@ -105,6 +105,11 @@
             
             NSArray<NSString *> *components = [line componentsSeparatedByString:@","];
             NSString *duration = components.firstObject;
+            if ([duration containsString:@" "]) { // maybe not only duration
+                NSArray <NSString *> *ext = [duration componentsSeparatedByString:@" "];
+                params[M3U8_EXT] = ext;
+                duration = ext.firstObject;
+            }
             if (duration) {
                 params[M3U8_EXTINF_DURATION] = duration;
             }

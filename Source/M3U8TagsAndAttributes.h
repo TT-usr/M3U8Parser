@@ -27,7 +27,7 @@
 #define M3U8_EXTINF_DURATION                @"DURATION"
 #define M3U8_EXTINF_TITLE                   @"TITLE"
 #define M3U8_EXTINF_URI                     @"URI"
-
+#define M3U8_EXT                            @"EXT"
 
 /// NEW TAGS
 /**
