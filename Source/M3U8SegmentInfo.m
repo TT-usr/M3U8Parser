@@ -57,6 +57,10 @@
     return [NSURL URLWithString:self.URI.absoluteString relativeToURL:[self baseURL]];
 }
 
+- (NSArray *)ext {
+    return self.dictionary[M3U8_EXT];
+}
+
 - (NSTimeInterval)duration {
     return [self.dictionary[M3U8_EXTINF_DURATION] doubleValue];
 }

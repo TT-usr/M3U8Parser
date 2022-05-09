@@ -30,6 +30,7 @@
 @property (readonly, nonatomic, copy) NSString *title;
 @property (readonly, nonatomic, copy) NSURL *URI;
 @property (readonly, nonatomic, strong) M3U8ExtXByteRange *byteRange;
+@property (readonly, nonatomic, strong) NSArray <NSString *>*ext;
 /** Key for media data decrytion. may be for this segment or next if no key. */
 @property (readonly, nonatomic, strong) M3U8ExtXKey *xKey;
 
